@@ -1,0 +1,61 @@
+.auth-background {
+  background: url("./assets/img.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  padding: 70px;
+}
+
+@media (max-width: 500px) {
+  .auth-background {
+    padding: 0px;
+  }
+  .auth-box {
+    height: 100vh;
+  }
+  .auth-box {
+    min-width: 0px !important;
+  }
+}
+
+.auth-box {
+  background-color: white;
+  max-width: 500px;
+  border-radius: 2%;
+  padding: 30px;
+}
+
+.auth-box {
+  background-color: white;
+  min-width: 500px;
+  max-width: 500px;
+  border-radius: 2%;
+  padding: 30px;
+}
+
+.auth-subtitle {
+  color: #4e4e4e;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.auth-field {
+  margin-top: 30px !important;
+}
+
+.auth-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.auth-inputs {
+  margin-bottom: 30px;
+}
+
+.submit-button {
+  background-color: blue !important;
+  color: white !important;
+}
